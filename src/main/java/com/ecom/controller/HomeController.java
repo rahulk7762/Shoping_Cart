@@ -13,10 +13,17 @@ public class HomeController {
 		return "index";
 	}
 	
-	@GetMapping("/namaste")
-	public String index2() {
-		System.out.println("HomeController.index2()");
-		return "index";
+	@GetMapping("/login")
+	public String login() {
+		System.out.println("HomeController.login()");
+		return "login";
+	}
+	
+	
+	@GetMapping("/register")
+	public String register() {
+		System.out.println("HomeController.register()");
+		return "register";
 	}
 	
 }
