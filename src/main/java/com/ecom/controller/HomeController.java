@@ -26,4 +26,13 @@ public class HomeController {
 		return "register";
 	}
 	
+	
+	
+	  @GetMapping("/products") public String product() {
+		  
+	 System.out.println("HomeController.product()");
+	 return "product"; 
+	 }
+	 
+	
 }
